@@ -30,9 +30,9 @@ This is a simple Shopping List application built using AngularJS+Node.js+Express
 
 
 3. **Run the Application:**
-  ```bash
-  node server.js
-  ```
+   ```bash
+   node server.js
+   ```
 
 Open your browser and navigate to http://localhost:5500.
 
