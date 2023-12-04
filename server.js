@@ -22,11 +22,12 @@ app.get('/api/shoppingList', (req, res) => {
             console.error(err);
             res.status(500).json({ error: 'Internal Server Error' });
         } else {
-            console.log('Fetched data from the database:', rows);
+            console.log('Fetched data from the database:', rows); // Log data here
             res.json(rows);
         }
     });
 });
+
 
 // Endpoint to add an item to the shopping list
 app.post('/api/shoppingList', (req, res) => {

@@ -9,15 +9,13 @@ app.controller("myCtrl", function($scope, $http) {
 
     // Fetch the initial shopping list from the server
     $http.get('/api/shoppingList')
-    .then(function(response) {
-        console.log('Fetched data from the server:', response.data);
-        $scope.products = response.data;
-    })
-    .catch(function(error) {
-        console.error(error);
-        // Handle error fetching initial list
-    });
-
+        .then(function (response) {
+            $scope.products = response.data;
+        })
+        .catch(function (error) {
+            console.error(error);
+            // Handle error fetching initial list
+        });
 
     // Function to add an item to the list
     $scope.addItem = function() {
