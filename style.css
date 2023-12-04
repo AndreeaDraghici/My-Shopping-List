@@ -1,31 +1,42 @@
+/* Body styles */
 body {
-    background-color: #333;
-    color: #fff;
+    background-color: #773939; /* background color */
+    color: #333333; /* text color */
 }
 
+/* Card styles */
 .w3-card-2 {
-    background-color: #444;
+    background-color: #772c2c; 
 }
 
 .w3-light-grey {
-    background-color: #555;
+    background-color: #614040; 
 }
 
+/* Unordered list text color */
 .w3-ul {
-    color: #fff;
+    color: #631414; /* text color in the list */
 }
 
+/* Input and button styles */
 .w3-input,
 .w3-btn {
-    background-color: #777;
-    color: #fff;
+    background-color: #999999; /* input and button color */
+    color: #ffffff; /* text color in inputs and buttons */
 }
 
+/* Input and button focus styles */
 .w3-input:focus,
 .w3-btn:focus {
-    background-color: #999;
+    background-color: #cccccc; /* color when input or button is focused/selected */
 }
 
+/* Padding and border styles */
 .w3-padding-16 {
-    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #bbbbbb; /* border color */
+}
+
+/* Adaugă spațiu între input și buton */
+.w3-margin-right {
+    margin-right: 10px; /* sau ajustează după preferințe */
 }
