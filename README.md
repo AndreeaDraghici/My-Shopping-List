@@ -9,9 +9,12 @@ This is a simple Shopping List application built using AngularJS. It allows user
 
 ## Technologies Used
 
-- **AngularJS (1.6.9):** Front-end JavaScript framework used for building the application.
+- **AngularJS (1.6.9):** Front-end JavaScript framework for building the application.
+- **Node.js and Express.js:** Backend JavaScript runtime and web application framework.
 - **HTML and CSS:** Markup and styling languages for structuring and styling the user interface.
+- **SQLite:** Relational database management system for storing shopping list data.
 - **Visual Studio Code (VS Code):** Integrated Development Environment (IDE) used for coding and debugging.
+
 
 ## How to Run
 
@@ -21,25 +24,30 @@ This is a simple Shopping List application built using AngularJS. It allows user
    cd shopping-list-app
    ```
 
-2. **Open in VS Code:**
+2. **Install Dependencies:**
    ```bash
-   code .
+   npm install
    ```
-Open the project folder in Visual Studio Code.
 
 
 3. **Run the Application:**
+  ```bash
+   node server.js
+   ```
 
-Open the index.html file in your browser or use a local server for development.
+Open your browser and navigate to http://localhost:5500.
 
+4. **Extensions (Optional):**
+
+    Install the "Live Server" extension in VS Code for a quick and easy way to run the application locally.
 
 ## Development Environment
 
 Visual Studio Code (VS Code):
-- A lightweight and powerful code editor.
+- Visual Studio Code (VS Code): Integrated Development Environment (IDE) used for coding and debugging.
 
 
-- Extensions: Install the "Live Server" extension for a quick and easy way to run the application locally.
+- SQLite Browser: A visual interface for managing SQLite database.
 
 ## Features
 
@@ -61,3 +69,28 @@ Visual Studio Code (VS Code):
 - Error Handling:
 
     The application provides error messages for empty input, duplicate items, and empty search terms.
+
+
+- Backend Server:
+
+    The application uses Node.js and Express.js to provide a backend server for handling API requests and interacting with the SQLite database.
+
+
+- Database (SQLite):
+
+    The shopping list items are stored in an SQLite database. The database file is named list_database.db.
+
+
+
+## Notes
+
+- Make sure you have Node.js installed on your machine before running the application.
+
+
+- The database is automatically created if it doesn't exist when the application starts.
+
+
+- Check the console for server logs and potential errors during development.
+
+
+- You can use the "Live Server" extension in VS Code for a quick and easy way to run the application locally during development.

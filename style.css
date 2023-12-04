@@ -1,28 +1,29 @@
 /* Body styles */
 body {
-    background-color: #773939; /* background color */
-    color: #333333; /* text color */
+    background-color: #ffffff; /* background color */
+    color: #000000; /* text color */
 }
 
 /* Card styles */
 .w3-card-2 {
-    background-color: #772c2c; 
+    background-color: #fcf7f7; /* card color */
 }
 
+/* Light grey background styles */
 .w3-light-grey {
-    background-color: #614040; 
+    background-color: #f5f5f5; /* light grey background color */
 }
 
 /* Unordered list text color */
 .w3-ul {
-    color: #631414; /* text color in the list */
+    color: #000000; /* text color in the list */
 }
 
 /* Input and button styles */
 .w3-input,
 .w3-btn {
     background-color: #999999; /* input and button color */
-    color: #ffffff; /* text color in inputs and buttons */
+    color: #000000; /* text color in inputs and buttons */
 }
 
 /* Input and button focus styles */
@@ -33,10 +34,10 @@ body {
 
 /* Padding and border styles */
 .w3-padding-16 {
-    border-bottom: 1px solid #bbbbbb; /* border color */
+    border-bottom: 1px solid #fc0000; /* border color */
 }
 
-/* Adaugă spațiu între input și buton */
+/* Add space between input and button */
 .w3-margin-right {
-    margin-right: 10px; /* sau ajustează după preferințe */
+    margin-right: 10px; /* adjust as per preference */
 }

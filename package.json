@@ -1,0 +1,24 @@
+{
+  "name": "ShoppingList",
+  "version": "1.0.0",
+  "description": "Sample AngularJS Application",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreeaDraghici/My-Shopping-List.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndreeaDraghici/My-Shopping-List/issues"
+  },
+  "homepage": "https://github.com/AndreeaDraghici/My-Shopping-List#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
