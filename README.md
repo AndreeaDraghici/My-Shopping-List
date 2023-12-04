@@ -1,11 +1,10 @@
 # My-Shopping-List
-Sample AngularJS Application
 
-# Shopping List App Documentation
+### Shopping List App Documentation
 
 ## Overview
 
-This is a simple Shopping List application built using AngularJS. It allows users to add, remove, and search for items in their shopping list.
+This is a simple Shopping List application built using AngularJS+Node.js+Express.js. It allows users to add, remove, and search for items in their shopping list and storing the list data to a relational db.
 
 ## Technologies Used
 
@@ -20,8 +19,8 @@ This is a simple Shopping List application built using AngularJS. It allows user
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/shopping-list-app.git
-   cd shopping-list-app
+   git clone https://github.com/AndreeaDraghici/My-Shopping-List.git
+   cd My-Shopping-List
    ```
 
 2. **Install Dependencies:**
